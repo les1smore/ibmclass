@@ -43,3 +43,10 @@ switch(userType){
         userCategory = 'Unknown';
 }
 console.log('User Cateogry:', userCategory);
+
+let isAuthenticated = ture;
+// If Authenticated is true, the expression before : (in this case, "Authenticated") is assigned to authenticationStatus.
+// If isAuthenticated is false, the expression after : (in this case, "Not authenticated") is assigned to authenticationStatus.
+let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
+
+console.log('Authentication Status:", authenticationStatus);
